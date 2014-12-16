@@ -1,0 +1,62 @@
+
+.top {
+  font-family: Arial, trebuchet, sans-serif;
+  font-size: 18px;
+  line-height: 1.5em;
+
+
+}
+.top h1 {
+  color: #ff4f4f;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.top p {
+  color: gray;
+  font-style: italic;
+  font-weight: normal;
+
+}
+
+
+.middle {
+  font-family: Georgia, Times, serif;
+  font-size: 13px;
+  line-height: 1.5em;
+
+
+}
+.middle h2 {
+  color: #4f89ff;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.middle p {
+  color: #2056c4;
+  font-weight: normal;
+
+}
+
+
+.bottom {
+  font-family: Georgia, Times, serif;
+  font-size: 32px;
+  line-height: 1em;
+
+}
+.bottom h2 {
+  color: #4f89ff;
+  text-transform: uppercase;
+  font-weight: bold;
+
+}
+
+.bottom p {
+  font-family: Trebuchet, verdana, sans-serif;
+  color: red;
+  font-size: 14px;
+  font-weight: normal;
+
+}
