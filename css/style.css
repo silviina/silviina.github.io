@@ -1,17 +1,56 @@
 
 h1 {
-  color: red;
+  color: #745d88;
+  font-family: 'Playfair Display', serif;
+  font-size: 35pt;
 }
 
 
 h2 {
-  color: #ad2b2b;
+  color: #745d88;
+  font-family: 'Playfair Display', serif;
+  font-size: 25pt;
 }
 
-.section-title {
-  color: #ad2b2b;
+h3 {
+  color: #382f40;
+  font-family: 'Playfair Display', serif;
+  text-transform: uppercase;
+  font-size: 12pt;
+
 }
 
 p {
-  color: rgb(43, 122, 173);
+  color: #382f40;
+  font-family: 'Open Sans', sans-serif;
+}
+
+li {
+  color: #382f40;
+  font-family: 'Open Sans', sans-serif;
+  font-size:12pt;
+}
+
+a:link {
+    text-decoration: underline;
+    font-family: 'Open Sans', sans-serif;
+    font-color: #a45de1;
+}
+
+a:visited {
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-color: #917fa0;
+}
+
+a:hover {
+    text-decoration: underline;
+    font-family: 'Open Sans', sans-serif;
+    font-color: #be91e5;
+}
+
+a:active {
+    text-decoration: underline;
+    font-family: 'Open Sans', sans-serif;
+    font-color: #be91e5;
 }
