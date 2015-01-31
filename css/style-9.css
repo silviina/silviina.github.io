@@ -1,3 +1,40 @@
 body {
-  background: #dce2e1 url("images/restaurant.png") repeat fixed 100% 100%;
+  background-image: url("../images/restaurant.png");
+
+}
+
+a {
+  font-family: verdana, sans-serif;
+  font-size:16px;
+  color: #ffffff;
+  text-transform: none;
+  text-decoration: underline;
+}
+
+a:visited {
+  font-family: verdana, sans-serif;
+  font-size:16px;
+  color: #009995;
+  text-transform: none;
+  text-decoration: underline;
+}
+
+a:hover {
+  font-family: verdana, sans-serif;
+  font-size:16px;
+  color: #afeeee;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+a:active {
+  font-family: verdana, sans-serif;
+  font-size:16px;
+  color: #ffd7a7;
+  text-transform: none;
+  text-decoration: line-through;
+}
+
+p::before {
+  content: "Instructions: ":;
 }
