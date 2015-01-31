@@ -36,5 +36,5 @@ a:active {
 }
 
 p::before {
-  content: "Instructions: "
+  content: "Instructions: ";
 }
