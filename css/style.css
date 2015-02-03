@@ -1,3 +1,6 @@
+header {
+  background-image: url(../images/squared_metal.png);
+}
 
 h1 {
   color: #745d88;
@@ -34,7 +37,7 @@ li {
 a:link {
     text-decoration: underline;
     font-family: 'Open Sans', sans-serif;
-    color: #a45de1;
+    color: #ffffff;
 }
 
 a:visited {
@@ -53,4 +56,8 @@ a:active {
     text-decoration: underline;
     font-family: 'Open Sans', sans-serif;
     color: #be91e5;
+}
+
+footer {
+  background-image: url(../images/stardust.png);
 }
