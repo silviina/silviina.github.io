@@ -1,0 +1,19 @@
+body, h1, p {
+    margin: 0;
+}
+
+header {
+  background-color: #27dbdb;
+  height: 10em;
+  width: 100%;
+}
+
+.box-model {
+  background-color: #db2727;  
+  height: 300px;
+  width: 300px;
+  border: 5px black dashed;
+  padding: 50px;
+  margin: 50px 20px;
+
+}
