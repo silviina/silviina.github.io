@@ -154,8 +154,7 @@ img.imglogo {
 }
 
 #textus {
-	width: 70%;
-	max-width: 700px;
+	width: 50%;
 	border: 1px solid #e081c3;
 	margin-left: 25%;
 	margin-right: 25%;
@@ -219,12 +218,31 @@ img.imglogo {
 	width: 100%;
 
 }
-	#textus { width: 100%; }
+	#textus { width: 80%; margin: 0 10% 10% 10%;}
 	#logo { width: 100%; padding-bottom: 5%;}
 	#navi { width: 100%; visibility: hidden; display: none;}
-	#refresh { width: 30%; }
-	#basic { width: 30%; float:left; }
-	#oroption { width: 30%; }
+	#refresh {
+		width: 30%;
+		text-align: center;
+		margin-left: 2%;
+		font-family: 'Open Sans', sans-serif;
+		font-weight: 300;
+}
+
+#basic {
+	width: 30%;
+	margin-left: 5%;
+	margin-right: 2%;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+}
+
+#oroption {
+	width: 10%;
+	padding-top: 10%;
+  text-align: center;
+}
 	#textusimage { width: 30%; }
 	#textusinfo { width: 30%; }
 	#footer { width: 100%; }
@@ -235,42 +253,42 @@ img.imglogo {
 /* Tablet Portrait (768px) */
 @media only screen and (min-width: 321px) and (max-width: 1024px) and (orientation: portrait) {
 	#top { width: 100%; }
-	#packages { 
-		width: 100%;
-	  padding-top: 10%;
-}
-	#textus { width: 80%; margin: 0 10% 10% 10%;}
-	#logo { width: 100%; padding-bottom: 10%; margin-left: 25%;}
+	#packages { width: 100%; }
+	#textus { width: 50%; }
+	#logo { width: 100%; padding-bottom:5%;}
 	#navi { width: 100%; visibility: hidden; display: none;}
-	#refresh { width: 25%; margin: 5% 10% 5% 5%;}
-	#basic { width: 25%; margin: 5% 5% 5% 10%;}
-	#oroption { width: 5%; margin: auto 0;}
-	#textusimage { width: 10%; margin: auto 0; }
-	#textusinfo { width: 50%; margin-left:25%;}
+	#refresh { width: 100%; }
+	#basic { width: 100%; margin: 0 auto; padding-top: 20%;}
+	#oroption { width: 100%; visibility: hidden; display: none;}
+	#textusimage { width: 50%; }
+	#textusinfo { width: 100%; padding: 10%; }
 	#footer { width: 100%; }
-	#box12 { width: 100%;
-	}
-
-
-h1 {
+	#box12 { width: 100%; }
+	h1 {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 700;
-	font-size: 3em;
+	font-size: 2em;
 	text-transform: uppercase;
 	color: #222222;
 	letter-spacing: -2px;
-	margin-bottom:0px;
-	line-height: 1em;
+	margin-bottom:-10px;
 }
 
 h2 {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 400;
-	font-size: 1.5em;
+	font-size: 1em;
 	text-transform: uppercase;
 	color: #723a9f;
-	margin-bottom:-30px;
+	margin-bottom:-20px;
 }
+
+h3 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	font-size: 1em;
+}
+
 /* Phone Landscape (480px) */
 @media only screen and (min-width: 321px) and (max-width: 480px) and (orientation: landscape) {
 	#top { width: 100%; }
@@ -279,7 +297,7 @@ h2 {
 	#logo { width: 100%; }
 	#navi { width: 100%; visibility: hidden; display: none;}
 	#refresh { width: 100%; margin: auto 0;}
-	#basic { width: 100%; margin: auto 0;}
+	#basic { width: 100%; margin: auto 0; padding-top:30%;}
 	#oroption { width: 100%; margin: auto 0;}
 	#textusimage { width: 100%; }
 	#textusinfo { width: 100%; }
