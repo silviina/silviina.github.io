@@ -2,6 +2,8 @@ body {
 	background-color: #000000;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
+		margin: 0 auto;
+
 }
 
 p.headline {
@@ -85,8 +87,7 @@ img.imglogo {
 	width: 100%;
 	height:630px;
   background: url("../images/headerbannerbag.png") no-repeat bottom center black; 
-  margin-bottom: -5px;
-}
+  }
 
 #logo {
 	width: 30%;
@@ -97,12 +98,16 @@ img.imglogo {
 
 #packages {
 	width: 100%;
-	padding-top: 10%;
-	background: url("../images/orderbag.png") center top no-repeat white;
-
-
+	margin: 0 auto;
+	background: white;
 }
 
+#packagesfixed {
+	padding-top: 10%;
+	background: url("../images/orderbag.png") center top no-repeat white;
+		margin: 0 auto;
+
+}
 #flatbubble {
 	position: absolute;
 	margin-left: 57%; margin-bottom: 100px;
@@ -150,6 +155,7 @@ img.imglogo {
 
 #textus {
 	width: 70%;
+	max-width: 700px;
 	border: 1px solid #e081c3;
 	margin-left: 15%;
 	margin-right: 15%;
@@ -202,11 +208,17 @@ img.imglogo {
 /* Laptop/Tablet (1024px) */
 @media only screen and (min-width: 481px) and (max-width: 1024px) and (orientation: landscape) {
 	#top { width: 100%;}
-	#packages { 
-		width: 100%;
-	  padding-top: 10%;
-	}
-	
+
+#packages {
+	width: 100%;
+
+
+}
+
+#packagesfixed {
+	width: 100%;
+
+}
 	#textus { width: 100%; }
 	#logo { width: 100%; padding-bottom: 5%;}
 	#navi { width: 100%; visibility: hidden; display: none;}
@@ -228,7 +240,7 @@ img.imglogo {
 	  padding-top: 10%;
 }
 	#textus { width: 80%; margin: 0 10% 10% 10%;}
-	#logo { width: 100%; padding-bottom: 5%; }
+	#logo { width: 100%; padding-bottom: 10%; margin-left: 25%;}
 	#navi { width: 100%; visibility: hidden; display: none;}
 	#refresh { width: 25%; margin: 5% 10% 5% 5%;}
 	#basic { width: 25%; margin: 5% 5% 5% 10%;}
