@@ -191,12 +191,13 @@ img.imglogo {
 }
 
 #footer p {
-	width: 96%;
+	width: 88%;
 	background-color: #e081c3;
 	margin: 3%;
 	text-transform: uppercase;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 700;
+	padding: 3%;
 
 }
 
@@ -298,6 +299,36 @@ h3 {
 	font-size: 1em;
 	text-align: center;
 }
+.custom-counter {
+    margin-left: 0;
+    padding-right: 0;
+    list-style-type: none;
+}
+
+.custom-counter li {
+    counter-increment: step-counter;
+    min-width: 340px;
+
+}
+}
+
+.custom-counter ul li {
+    float: left;
+}
+
+
+.custom-counter li::before {
+    content: counter(step-counter);
+    margin-right: 8px;
+    margin-left: 0px;
+    font-size: 30%;
+    background-color: rgb(200,200,200);
+    color: white;
+    font-weight: bold;
+    padding: 3px 8px;
+    border-radius: 15px;
+    line-height: 2em;
+
 
 /* Phone Landscape (480px) */
 @media only screen and (min-width: 321px) and (max-width: 480px) and (orientation: landscape) {
