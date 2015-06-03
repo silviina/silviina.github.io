@@ -11,6 +11,7 @@ p.headline {
 	color:white;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
+	padding: 5%;
 }
 
 h1 {
@@ -87,6 +88,7 @@ img.imglogo {
 	width: 100%;
 	height:630px;
   background: url("../images/headerbannerbag.png") no-repeat bottom center black; 
+  
   }
 
 #logo {
@@ -105,7 +107,7 @@ img.imglogo {
 #packagesfixed {
 	padding-top: 10%;
 	background: url("../images/orderbag.png") center top no-repeat white;
-		margin: 0 auto; padding-left:20%; padding-right:20%;
+		margin-left:20%; margin-right:20%;
 
 }
 #flatbubble {
@@ -258,13 +260,14 @@ img.imglogo {
 	#logo { width: 100%; padding-bottom:5%;}
 	#navi { width: 100%; visibility: hidden; display: none;}
 	#refresh { width: 100%; }
-	#basic { width: 100%; margin: 0 auto; padding-top: 20%;}
+	#basic { width: 100%; margin: 0 auto; padding-top: 100px;}
 	#oroption { width: 100%; visibility: hidden; display: none;}
-	#textusimage { width: 50%; }
-	#textusinfo { width: 100%; padding: 10%; }
+	#textusimage { width: 20%; }
+	#textusinfo { width: 70%; padding: 5%; }
 	#footer { width: 100%; }
 	#box12 { width: 100%; }
-	h1 {
+
+h1 {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 700;
 	font-size: 2em;
@@ -272,6 +275,8 @@ img.imglogo {
 	color: #222222;
 	letter-spacing: -2px;
 	margin-bottom:-10px;
+	line-height: 1em;
+	text-align: center;
 }
 
 h2 {
@@ -281,23 +286,25 @@ h2 {
 	text-transform: uppercase;
 	color: #723a9f;
 	margin-bottom:-20px;
+	text-align: center;
 }
 
 h3 {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 700;
 	font-size: 1em;
+	text-align: center;
 }
 
 /* Phone Landscape (480px) */
 @media only screen and (min-width: 321px) and (max-width: 480px) and (orientation: landscape) {
 	#top { width: 100%; }
 	#packages { width: 100%; }
-	#textus { width: 100%; }
+	#textus { width: 100%;}
 	#logo { width: 100%; }
 	#navi { width: 100%; visibility: hidden; display: none;}
 	#refresh { width: 100%; margin: auto 0;}
-	#basic { width: 100%; margin: auto 0; padding-top:30%;}
+	#basic { width: 100%; margin: auto 0; }
 	#oroption { width: 100%; margin: auto 0;}
 	#textusimage { width: 100%; }
 	#textusinfo { width: 100%; }
@@ -309,7 +316,7 @@ h3 {
 /* Phone Portrait (320px) */
 @media only screen and (max-width: 320px) {
 	#top { width: 100%; }
-	#packages { width: 100%; }
+	#packages { width: 100%; padding:5%; }
 	#textus { width: 100%; }
 	#logo { width: 100%;}
 	#navi { width: 100%; visibility: hidden; display: none;}
