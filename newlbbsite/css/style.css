@@ -1,5 +1,5 @@
 body {
-	background-color: #222222;
+	background-color: #000000;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
 }
@@ -77,14 +77,15 @@ img.imglogo {
 }
 
 #root {
-	max-width: 1152px; 
+	max-width: 1280px; 
 	margin: 0 auto;
 }
 
 #top {
 	width: 100%;
 	height:630px;
-	background: url("../images/headerbanner.png") black center no-repeat;
+  background: url("../images/headerbannerbag.png") no-repeat bottom center black; 
+  margin-bottom: -5px;
 }
 
 #logo {
@@ -102,6 +103,14 @@ img.imglogo {
 
 }
 
+#flatbubble {
+	position: absolute;
+	margin-left: 57%; margin-bottom: 100px;
+}
+#headerbag {
+	position: absolute;
+	margin-left:25%; margin-right:25%; margin-bottom: 0;
+}
 #navi {
 	 width: 50%;
    color:white;
