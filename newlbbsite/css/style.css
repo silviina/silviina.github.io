@@ -193,7 +193,7 @@ img.imglogo {
 #footer p {
 	width: 96%;
 	background-color: #e081c3;
-	margin: 2%;
+	margin: 3%;
 	text-transform: uppercase;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 700;
@@ -265,7 +265,7 @@ img.imglogo {
 	#refresh { width: 100%; }
 	#basic { width: 100%; margin: 0 auto; padding-top: 100px;}
 	#oroption { width: 100%; visibility: hidden; display: none;}
-	#textusimage {margin-left: 20%; }
+	#textusimage {margin-left: 30%; padding-top: 10%;}
 	#textusinfo { width: 90%; padding: 0 5% 5% 5%; }
 	#footer { width: 100%; }
 	#box12 { width: 100%; }
