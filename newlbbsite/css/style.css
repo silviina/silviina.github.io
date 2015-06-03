@@ -14,6 +14,10 @@ p.headline {
 	padding: 5%;
 }
 
+p.body {
+	margin: 5%;
+}
+
 h1 {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 700;
@@ -111,8 +115,7 @@ img.imglogo {
 #packagesfixed {
 	padding-top: 10%;
 	background: url("../images/orderbag.png") center top no-repeat white;
-		margin-left:20%; margin-right:20%;
-		margin-top: 0; margin-bottom: 0;
+		margin: 0 auto;
 
 }
 #flatbubble {
@@ -160,8 +163,8 @@ img.imglogo {
 #textus {
 	width: 50%; min-width: 600px; max-width: 800px;
 	border: 1px solid #e081c3;
-	margin-left: 25%;
-	margin-right: 25%;
+	margin-left: 15%;
+	margin-right: 15%;
 	margin-bottom: 5%;
 	padding: 0;
 }
@@ -215,6 +218,7 @@ img.imglogo {
 #packages {
 	width: 100%;
 	margin: 0 auto;
+	padding: 0;
 
 
 }
