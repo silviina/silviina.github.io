@@ -45,7 +45,7 @@ img.headline {
 }
 
 img.imglogo {
-	width: 100%; max-width: 372px;
+	width: 100%; max-width: 372px; text-align: center;
 }
 .custom-counter {
     margin-left: 0;
@@ -88,6 +88,7 @@ img.imglogo {
 #top {
 	width: 100%;
 	height:630px;
+	margin: 0 auto;
   background: url("../images/headerbannerbag.png") no-repeat bottom center black; 
   
   }
@@ -101,7 +102,7 @@ img.imglogo {
 
 #packages {
 	width: 100%;
-	margin: 0 auto;
+	margin-top: 0 auto;
 	background: white;
 }
 
@@ -113,12 +114,9 @@ img.imglogo {
 }
 #flatbubble {
 	position: absolute;
-	margin-left: 57%; margin-bottom: 100px;
+	margin-left: 57%; margin-top: -25px;
 }
-#headerbag {
-	position: absolute;
-	margin-left:25%; margin-right:25%; margin-bottom: 0;
-}
+
 #navi {
 	 width: 50%;
    color:white;
@@ -157,19 +155,18 @@ img.imglogo {
 }
 
 #textus {
-	width: 50%;
+	width: 50%; min-width: 600px; max-width: 800px;
 	border: 1px solid #e081c3;
 	margin-left: 25%;
 	margin-right: 25%;
 	margin-bottom: 5%;
 	padding: 0;
-	float: top;
 }
 
 
 #textusimage {
-	width: 30%;
-  padding-left: 8%;
+	width: 28%;
+  padding-left: 5%;
 	padding-top: 2%;
 }
 
@@ -200,10 +197,11 @@ img.imglogo {
 
 #box12 { width: 100%;
 	background-color: #222222;
-	height:50px;
-	color:white;
+	height:200px;
+	color: white;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
+	margin: 15px;
 }
 
 
@@ -271,7 +269,7 @@ img.imglogo {
 h1 {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 700;
-	font-size: 2em;
+	font-size: 2.5em;
 	text-transform: uppercase;
 	color: #222222;
 	letter-spacing: -2px;
