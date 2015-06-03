@@ -36,6 +36,13 @@ h3 {
 	font-size: 2em;
 }
 
+img.headline {
+	width: 100%; max-width: 555px;
+}
+
+img.imglogo {
+	width: 100%; max-width: 372px;
+}
 .custom-counter {
     margin-left: 0;
     padding-right: 0;
@@ -265,11 +272,11 @@ h2 {
 	#top { width: 100%; }
 	#packages { width: 100%; }
 	#textus { width: 100%; }
-	#logo { width: 100%; }
+	#logo { width: 100%;}
 	#navi { width: 100%; visibility: hidden; display: none;}
-	#refresh { width: 100%; margin: auto 0; float: none;}
-	#basic { width: 100%; margin: auto 0; float: none;}
-	#oroption { width: 100%; margin: auto 0; float: none;}
+	#refresh { width: 100%; }
+	#basic { width: 100%; }
+	#oroption { width: 100%; }
 	#textusimage { width: 100%; }
 	#textusinfo { width: 100%; }
 	#footer { width: 100%; }
