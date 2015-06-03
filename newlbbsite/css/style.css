@@ -105,7 +105,7 @@ img.imglogo {
 #packagesfixed {
 	padding-top: 10%;
 	background: url("../images/orderbag.png") center top no-repeat white;
-		margin: 0 auto;
+		margin: 0 auto; padding-left:20%; padding-right:20%;
 
 }
 #flatbubble {
@@ -131,16 +131,16 @@ img.imglogo {
 
 #refresh {
 	width: 30%;
-	padding: 2%;
 	text-align: center;
+	margin-left: 2%;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
 }
 
 #basic {
 	width: 30%;
-	padding: 2%;
-	margin-left: 11%;
+	margin-left: 13%;
+	margin-right: 2%;
 	text-align: center;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
@@ -157,8 +157,8 @@ img.imglogo {
 	width: 70%;
 	max-width: 700px;
 	border: 1px solid #e081c3;
-	margin-left: 15%;
-	margin-right: 15%;
+	margin-left: 25%;
+	margin-right: 25%;
 	margin-bottom: 5%;
 	padding: 0;
 	float: top;
